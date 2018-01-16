@@ -12,3 +12,9 @@ $('.readless a').click(function() {
   $('.readless').hide()
   $('.readmore').show()
 })
+
+$('.learnmore').click(function() {
+  event.preventDefault();
+  $('#learnmoretext').slideDown()
+  $('.learnmore').hide()
+})
